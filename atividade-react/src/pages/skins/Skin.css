@@ -1,0 +1,29 @@
+.skins {
+  
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex: 1 0 200px;
+  margin: 60px;
+  text-align: center;
+}
+
+.skin img {
+  background-color: whitesmoke;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.skin img:hover {
+  transform: scale(1.1);
+}
+
+.skin h3 {
+  font-family: 'Valorant';
+  font-size: 30px;
+  margin-top: 10px;
+ 
+}
+
+.skin p {
+  font-style: italic;
+}

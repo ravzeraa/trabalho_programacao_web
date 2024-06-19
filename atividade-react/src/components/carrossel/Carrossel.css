@@ -1,0 +1,54 @@
+/* Carrossel.css */
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card-grid {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.card {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.button-carrossel {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.button-carrossel button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 40px 25px;
+    cursor: pointer;
+    pointer-events: all;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.button-carrossel button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
